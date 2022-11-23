@@ -1,0 +1,79 @@
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+yolov4-my-model-v2
+net.optimized_memory = 0 
+mini_batch = 2, batch = 32, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 70 K-images (1 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.949, Decay: 0.0005
+ Detection layer: 139 - type = 28 
+ Detection layer: 151 - type = 28 
+ Detection layer: 162 - type = 28 
+ If error occurs - run training with flag: -dont_show 
+Resizing, random_coef = 1.40 
+
+ 576 x 576 
+ try to allocate additional workspace_size = 143.62 MB 
+ CUDA allocate done! 
+Loaded: 0.874756 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2201: 0.146286, 0.146286 avg loss, 0.001000 rate, 4.401292 seconds, 70432 images, -1.000000 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2202: 0.315914, 0.163249 avg loss, 0.001000 rate, 4.071314 seconds, 70464 images, 14.361131 hours left
+Loaded: 0.000032 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2203: 0.268856, 0.173810 avg loss, 0.001000 rate, 4.040660 seconds, 70496 images, 14.328329 hours left
+Loaded: 0.000030 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2204: 0.078637, 0.164292 avg loss, 0.001000 rate, 4.084082 seconds, 70528 images, 14.295009 hours left
+Loaded: 0.000030 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2205: 0.229215, 0.170785 avg loss, 0.001000 rate, 4.063109 seconds, 70560 images, 14.263192 hours left
+Loaded: 0.000029 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2206: 0.346823, 0.188389 avg loss, 0.001000 rate, 4.091209 seconds, 70592 images, 14.231112 hours left
+Loaded: 0.000030 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2207: 0.514490, 0.220999 avg loss, 0.001000 rate, 4.049479 seconds, 70624 images, 14.200106 hours left
+Loaded: 0.000028 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2208: 0.471205, 0.246019 avg loss, 0.001000 rate, 4.108201 seconds, 70656 images, 14.168263 hours left
+Loaded: 0.000032 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2209: 0.204350, 0.241852 avg loss, 0.001000 rate, 4.137763 seconds, 70688 images, 14.138324 hours left
+Loaded: 0.000030 seconds
+
+ (next mAP calculation at 20388 iterations) 
+ 2210: 0.159048, 0.233572 avg loss, 0.001000 rate, 4.115679 seconds, 70720 images, 14.109478 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 79.48 MB 
+ CUDA allocate done! 
+Loaded: 1.481608 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 20388 iterations) 
+ 2211: 0.102846, 0.220499 avg loss, 0.001000 rate, 2.054072 seconds, 70752 images, 14.080308 hours left
+Loaded: 1.029248 seconds - performance bottleneck on CPU or Disk HDD/SSD
+
+ (next mAP calculation at 20388 iterations) 
+ 2212: 0.350709, 0.233520 avg loss, 0.001000 rate, 2.063504 seconds, 70784 images, 14.035646 hours left
